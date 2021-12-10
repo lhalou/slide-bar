@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>JS Bin</title>
+  <link href="index.css" >
+</head>
+<body>
+  <div class="wrapper">
+    <div class="content">
+      <span id="stateOne">你好</span>
+      <span id="stateTwo">谢谢啦你好么</span>
+      <span id="stateThree">javaScript</span>
+    </div>
+    <div class="bar">
+      <div id= "state" class="bar-inner"></div>
+    </div>
+  </div>
+  <script>
+  stateOne.onclick=function() {
+    state.className="bar-inner state-1"
+  }
+  stateTwo.onclick=function() {
+    state.className="bar-inner state-2"
+  }
+  stateThree.onclick=function() {
+    state.className="bar-inner state-3"
+  }
+  </script>
+</body>
+</html>
